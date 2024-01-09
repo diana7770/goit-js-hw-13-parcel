@@ -1,0 +1,63 @@
+.modal-window {
+  background-color: #e2dfdf70;
+  border: 2px solid;
+  border-radius: 10px;
+  width: 300px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+h1 {
+  justify-content: center;
+  font-family: Nunito;
+  font-size: 15px;
+  font-weight: 900;
+  display: flex;
+}
+
+form {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.label {
+  font-family: Nunito;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 20px;
+}
+
+.input {
+  border: 2px solid;
+  border-radius: 10px;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: Nunito;
+  font-size: 13px;
+  font-weight: 800;
+  box-shadow: 0 4px 4px #00000026;
+}
+
+.input:hover {
+  box-shadow: 0 4px 4px #054208;
+}
+
+.button {
+  background-color: #3b7c3fe8;
+  border: 2px solid;
+  border-radius: 15px;
+  width: 100px;
+  font-family: Nunito;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.button:hover {
+  transform: cubic-bezier(.16, .49, 1, -.55);
+  background-color: #125818;
+  box-shadow: 0 4px 4px #054208;
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
