@@ -2,11 +2,13 @@
   "name": "goit-js-hw-13-parcel",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://diana7770.github.io/goit-js-hw-13-parcel/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-13-parscel",
-    "pre-start": "npm run build"
+    "pre-start": "build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -18,8 +20,10 @@
   "bugs": {
     "url": "https://github.com/diana7770/goit-js-hw-13-parcel/issues"
   },
-  "homepage": "https://github.com/diana7770/goit-js-hw-13-parcel#readme",
   "devDependencies": {
     "parcel": "^2.11.0"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1"
   }
 }

@@ -1,1 +1,1 @@
-{"mappings":"","sources":["src/index.js"],"sourcesContent":[""],"names":[],"version":3,"file":"index.1fc92b19.js.map"}
+{"mappings":"","sources":["src/index.js"],"sourcesContent":["import { showMessage } from \"./js/show-Message\";\r\n\r\nconsole.log(showMessage(\"Тетяна\"));\r\n"],"names":[],"version":3,"file":"index.1fc92b19.js.map"}
